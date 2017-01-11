@@ -57,6 +57,12 @@ sudo aptitude install kernel-package
 sudo apt-get install libsdl1.2debian zlib1g libx11-dev libsdl1.2-dev texi2html \
  sharutils libgpmg1-dev vgabios bochsbios proll
 
+#Strace
+sudo aptitude install strace
+
+#autoconf
+sudo apt-get install autoconf
+
 #VirtualBox
 echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -sc) contrib" | sudo tee -a /etc/apt/sources.list
 wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
